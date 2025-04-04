@@ -1,7 +1,7 @@
-# server-stat-script
-Linux Server Stats Script Emailed Daily
+# server-stat-script<BR>
+# Linux Server Stats Script Emailed Daily<BR>
 
-##OUTPUT##
+#OUTPUT#<BR>
 =================================<BR>
 Live Server Stats Report<BR>
 =================================<BR>
