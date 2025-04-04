@@ -3,34 +3,34 @@ Linux Server Stats Script Emailed Daily
 
 ##OUTPUT##
 =================================<BR>
-Live Server Stats Report
-=================================
-Generated on: Fri Apr4 2025,07:00:01AM
-=================================
+Live Server Stats Report<BR>
+=================================<BR>
+Generated on: Fri Apr4 2025,07:00:01AM<BR>
+=================================<BR>
 
-Internet Status: Available.
+Internet Status: Available.<BR>
 
-Interface Status:
-enp3s0:state:UP
-docker0:state:UP
+Interface Status:<BR>
+enp3s0:state:UP<BR>
+docker0:state:UP<BR>
 
-Bandwidth on main interface:
-      enp3s0     
- KB/s in  KB/s out
-    0.35      0.00
+Bandwidth on main interface:<BR>
+      enp3s0     <BR>
+ KB/s in  KB/s out<BR>
+    0.35      0.00<BR>
 
-System Temp: +27.8°C
-CPU Temperature: +55.0°C
-SSD Temp1: +42.9°C
-SSD Temp2: +68.8°C
+System Temp: +27.8°C<BR>
+CPU Temperature: +55.0°C<BR>
+SSD Temp1: +42.9°C<BR>
+SSD Temp2: +68.8°C<BR>
 
-CPU Usage: 100%
+CPU Usage: 100%<BR>
 
-Memory Usage:
-Used: 1433MB / Total: 15225MB (9.41% used)
+Memory Usage:<BR>
+Used: 1433MB / Total: 15225MB (9.41% used)<BR>
 
-Disk Usage:
-Used: 22G / Total: 936G (3% used)
+Disk Usage:<BR>
+Used: 22G / Total: 936G (3% used)<BR>
 
 Top 5 CPU Processes:<BR>
     PID COMMAND         %CPU<BR>
@@ -40,27 +40,27 @@ Top 5 CPU Processes:<BR>
   11415 s6-supervise     0.1<BR>
    1810 Plex Tuner Serv  0.1<BR>
 
- Top 5 Memory Processes:
-    PID COMMAND         %MEM
-      2 kthreadd         0.0
-      3 pool_workqueue_  0.0
-      4 kworker/R-rcu_g  0.0
-      5 kworker/R-sync_  0.0
-      6 kworker/R-slub_  0.0
+ Top 5 Memory Processes:<BR>
+    PID COMMAND         %MEM<BR>
+      2 kthreadd         0.0<BR>
+      3 pool_workqueue_  0.0<BR>
+      4 kworker/R-rcu_g  0.0<BR>
+      5 kworker/R-sync_  0.0<BR>
+      6 kworker/R-slub_  0.0<BR>
 
-Server Uptime:
-up 7 hours, 41 minutes
+Server Uptime:<BR>
+up 7 hours, 41 minutes<BR>
 
-Load Average: 0.26, 0.21, 0.14
+Load Average: 0.26, 0.21, 0.14<BR>
 
-Inodes over 10%:
+Inodes over 10%:<BR>
  
 
-Logged in Users:
+Logged in Users:<BR>
 
-Failed Login Attempts:
-Timestamp: Apr 02 12:09:32
-Username: invalid
-IP Address: 137.125.76.71
+Failed Login Attempts:<BR>
+Timestamp: Apr 02 12:09:32<BR>
+Username: invalid<BR>
+IP Address: 137.125.76.71<BR>
 .................................
 ==========================
