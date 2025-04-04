@@ -2,7 +2,7 @@
 Linux Server Stats Script Emailed Daily
 
 ##OUTPUT##
-=================================
+=================================<BR>
 Live Server Stats Report
 =================================
 Generated on: Fri Apr4 2025,07:00:01AM
@@ -32,13 +32,13 @@ Used: 1433MB / Total: 15225MB (9.41% used)
 Disk Usage:
 Used: 22G / Total: 936G (3% used)
 
-Top 5 CPU Processes:
-    PID COMMAND         %CPU
-   1413 mysqld           1.4
- 448216 curl             0.4
-   1517 Plex Media Serv  0.3
-  11415 s6-supervise     0.1
-   1810 Plex Tuner Serv  0.1
+Top 5 CPU Processes:<BR>
+    PID COMMAND         %CPU<BR>
+   1413 mysqld           1.4<BR>
+ 448216 curl             0.4<BR>
+   1517 Plex Media Serv  0.3<BR>
+  11415 s6-supervise     0.1<BR>
+   1810 Plex Tuner Serv  0.1<BR>
 
  Top 5 Memory Processes:
     PID COMMAND         %MEM
