@@ -1,2 +1,3 @@
 This is a beautiful story
 This is another beautiful story
+line 3
