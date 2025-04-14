@@ -49,13 +49,13 @@ Ensure your network interface names (`enp3s0`, `docker0`) match your system's co
 Make the script executable:
 
 ```bash
-chmod +x system_report.sh
+chmod +x stats.sh
 ```
 
 Then run the script:
 
 ```bash
-./system_report.sh
+./stats.sh
 ```
 
 The script will collect system data and email a detailed report to the specified recipient.
