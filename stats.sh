@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set variables for email
-TO_EMAIL="mikecozier@hotmail.com"
+TO_EMAIL="xxxxxx@hotmail.com"
 SUBJECT="Linux Server System Report"
 
 # Date
@@ -68,6 +68,6 @@ done)
 BODY="=================================\nLive Server Stats Report\n=================================\nGenerated on: $DATE\n=================================\n\nInternet Status: $INTERNET_UP\n\nInterface Status:\n$WIFI\n$DOCKER\n\nBandwidth on main interface:\n$BANDWIDTH\n\nSystem Temp: $SYSTEM_TEMP\nCPU Temperature: $CPU_TEMP\nSSD Temp1: $SSD1_TEMP\nSSD Temp2: $SSD2_TEMP\n\n$CPU_USAGE\n\n$MEM_USAGE\n\nDisk Usage:\n$DISK_USAGE\n\nTop 5 CPU Processes:\n$TOP5_CPU\n\n Top 5 Memory Processes:\n$TOP5_MEM\n\nServer Uptime:\n$SERVER_UPTIME\n\nLoad Average: $LOAD_AVG\n\nInodes over 10%:\n $INODE\n\nLogged in Users: $USERS\n\nFailed Login Attempts:\n$FAILED_LOGINS\n=========================="
 
 # Send the email
-echo -e "$BODY" | mutt -F /home/mirage/.muttrc -s "$SUBJECT" -- "$TO_EMAIL"
+echo -e "$BODY" | mutt -F /home/REPLACEYOURUSERNAMEHERE/.muttrc -s "$SUBJECT" -- "$TO_EMAIL"
 
 # End of script
