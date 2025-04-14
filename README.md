@@ -1,7 +1,3 @@
-Here’s a polished GitHub README for your system monitoring and reporting Bash script:
-
----
-
 # 🖥️ Linux Server System Report Script
 
 This Bash script generates a comprehensive system health and status report for a Linux server and emails the results. It includes checks for internet connectivity, network interfaces, system resource usage, temperatures, disk and memory status, failed login attempts, and more.
@@ -43,7 +39,7 @@ Don't forget to configure your `.muttrc` file properly for email delivery.
 Update the following variable in the script to your desired recipient:
 
 ```bash
-TO_EMAIL="mikecozier@hotmail.com"
+TO_EMAIL="youremail@hotmail.com"
 ```
 
 Ensure your network interface names (`enp3s0`, `docker0`) match your system's configuration.
