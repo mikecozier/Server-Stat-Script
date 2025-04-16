@@ -1,5 +1,5 @@
 #!/bin/bash
-# Test
+
 # Set variables for email
 TO_EMAIL="xxxxxx@hotmail.com"
 SUBJECT="Linux Server System Report"
