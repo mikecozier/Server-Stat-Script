@@ -1,23 +1,23 @@
-# 🖥️ Linux Server System Report Script
+# Linux Server System Report Script
 
 This Bash script generates a comprehensive system health and status report for a Linux server and emails the results. It includes checks for internet connectivity, network interfaces, system resource usage, temperatures, disk and memory status, failed login attempts, and more.
 
-## 📋 Features
+## Features
 
-- 📡 **Internet Connectivity** check via `ping`
-- 🔌 **Network Interface Status** (Wi-Fi, Docker)
-- 📊 **Bandwidth Monitoring** using `ifstat`
-- 🌡️ **Temperature Monitoring** via `sensors`
-- 🧠 **CPU & Memory Usage** summaries
-- 💾 **Disk Usage** on selected partitions
-- ⚙️ **Top 5 CPU and Memory Processes**
-- ⏳ **Server Uptime** and Load Average
-- 📦 **Inode Usage** warning if above 10%
-- 👥 **Logged-in Users**
-- 🚫 **Failed SSH Login Attempts**
-- 📧 **Email Report** sent using `mutt`
+-  **Internet Connectivity** check via `ping`
+-  **Network Interface Status** (Wi-Fi, Docker)
+-  **Bandwidth Monitoring** using `ifstat`
+-  **Temperature Monitoring** via `sensors`
+-  **CPU & Memory Usage** summaries
+-  **Disk Usage** on selected partitions
+-  **Top 5 CPU and Memory Processes**
+-  **Server Uptime** and Load Average
+-  **Inode Usage** warning if above 10%
+-  **Logged-in Users**
+-  **Failed SSH Login Attempts**
+-  **Email Report** sent using `mutt`
 
-## 🛠️ Requirements
+##  Requirements
 
 Make sure the following tools are installed:
 
@@ -34,7 +34,7 @@ sudo apt install mutt lm-sensors sysstat ifstat
 
 Don't forget to configure your `.muttrc` file properly for email delivery.
 
-## 🔧 Configuration
+##  Configuration
 
 Update the following variable in the script to your desired recipient:
 
@@ -44,7 +44,7 @@ TO_EMAIL="youremail@hotmail.com"
 
 Ensure your network interface names (`enp3s0`, `docker0`) match your system's configuration.
 
-## 🚀 Usage
+##  Usage
 
 Make the script executable:
 
@@ -60,7 +60,7 @@ Then run the script:
 
 The script will collect system data and email a detailed report to the specified recipient.
 
-## 📤 Email Example Output
+##  Email Example Output
 
 ```
 =================================
@@ -93,12 +93,12 @@ IP Address: 192.168.1.100
 ..........................
 ```
 
-## 📌 Notes
+##  Notes
 
 - Run this script as a cron job to get regular health reports.
 - Customize filesystem filters in the `df` command and tune temperature sensors to match your hardware.
 
-## 📜 License
+##  License
 
 This script is provided as-is with no warranty. Feel free to modify and share it under the MIT License.
 
